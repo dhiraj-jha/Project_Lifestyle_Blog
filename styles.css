@@ -1,0 +1,14 @@
+.btn-intro {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #f6754aff;
+}
+.btn-green {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #57705fff;
+}
+.bg-pink-subtle {
+  background-color: #f0e9dc;
+}
+.bg-orange {
+  background-color: #f08662;
+}
