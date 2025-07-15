@@ -1,14 +1,44 @@
 .btn-intro {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #f6754aff;
+  color: #000;
+  background-color: rgba(232, 171, 66, 0.574);
 }
 .btn-green {
-  --bs-btn-color: #ffffff;
-  --bs-btn-bg: #57705fff;
+  color: #ffffff;
+  background-color: #57705fff;
 }
 .bg-pink-subtle {
   background-color: #f0e9dc;
 }
 .bg-orange {
-  background-color: #f08662;
+  background-color: #db9e54;
+  opacity: 0.5;
+}
+
+@media (min-width: 992px) {
+  .position-lg-absolute {
+    position: absolute !important;
+  }
+  .position-lg-relative {
+    position: relative !important;
+  }
+  .translate-lg-middle {
+    transform: translate(-50%, -50%) !important;
+  }
+  .prc {
+    padding-right: 10rem !important;
+    padding-left: 6rem !important;
+  }
+  .plc {
+    padding-right: 6rem !important;
+    padding-left: 10rem !important;
+  }
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  .w-lg-55 {
+    width: 55% !important;
+  }
+  .w-lg-60 {
+    width: 60% !important;
+  }
 }
